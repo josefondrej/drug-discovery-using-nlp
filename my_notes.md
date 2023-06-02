@@ -70,3 +70,10 @@ Problems
     - you have to download proper tokenizer that belongs
     - tokenize the raw input
     - use the model on it
+
+## 2nd task
+
+- The dataset is relatively big (7k molecules :))
+- BBB+/- encode if the molecule can cross the blood-brain barrier
+- we remove just numerical names of molecules, because this particular model will probably not recognize it
+- sometimes english name / iupac name is missing (molecule is new, does not have a name yet etc.)
