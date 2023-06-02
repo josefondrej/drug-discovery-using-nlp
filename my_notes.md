@@ -81,6 +81,7 @@ Problems
 ## 3rd task
 
 - download model and modify it to predict BBB+/- (binary classification) using the `simpletransformers` library
+- use the molecule name as input
 
 -----
 
@@ -97,3 +98,5 @@ Problems
 
 ## 4th task
 
+- same as 3 but use different base model
+- use the molecule SMILE as input
