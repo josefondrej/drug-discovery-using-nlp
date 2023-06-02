@@ -77,3 +77,23 @@ Problems
 - BBB+/- encode if the molecule can cross the blood-brain barrier
 - we remove just numerical names of molecules, because this particular model will probably not recognize it
 - sometimes english name / iupac name is missing (molecule is new, does not have a name yet etc.)
+
+## 3rd task
+
+- download model and modify it to predict BBB+/- (binary classification) using the `simpletransformers` library
+
+-----
+
+## How to deal with small molecules?
+
+- Build own embeddings
+- **ChemBERTa**
+    - Used 10M SMILES
+    - trained: predict missing segments of SMILES
+    - performance: not the best (likely to get better with more data)
+    - byte-wise encoding (hybrid between word and character) -- build subwords based on frequency (in English you would
+      likely get "ing", "ed")
+    - SMILES with some parts masked -> Tokenizer -> Transformer -> what the masked parts were
+
+## 4th task
+
