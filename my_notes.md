@@ -64,3 +64,9 @@ Problems
 - bias in attention scores (the doctor asked the nurse a question. She <- now there is higher attention score for nurse
   the doctor for the "She" word)
 
+## 1st task
+
+- Get familiar with how to download language model from HuggingFace and how to use it
+    - you have to download proper tokenizer that belongs
+    - tokenize the raw input
+    - use the model on it
