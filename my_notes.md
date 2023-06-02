@@ -100,3 +100,12 @@ Problems
 
 - same as 3 but use different base model
 - use the molecule SMILE as input
+
+----
+
+## Drug Generation
+
+- SMILES + description --> generative model (idea is to give molecule description and generate SMILES, or they come up
+  with new molecule, have SMILES and the model describes it)
+- University of Illinois, Google X ^^
+- Similar project -> 
